@@ -1,0 +1,55 @@
+@font-face {
+	font-family: 'Roboto'; 
+	src: url(../fonts/Roboto-Bold.woff);
+    font-weight: bold;
+    font-style: normal;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-screen {
+    width: 240px;
+    aspect-ratio: 9 / 16;
+    background-color: white;
+    box-shadow: 0px 5px 10px 2px rgb(225, 228, 235);
+}
+
+.fullscreen-button {
+    height: 60px;
+    width: 100%;
+    margin-top: 10px;
+    box-shadow: 0px 5px 10px 2px rgb(225, 228, 235);
+    border: 0px;
+    background-color: white;
+    z-index: 10;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.fullscreen-icon {
+    height: 100%;
+    aspect-ratio: 1;
+}
+
+.fullscreen-text {
+    font-size: 18pt;
+    padding-left: 8px;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-style: normal;
+}
